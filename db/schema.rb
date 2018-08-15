@@ -13,5 +13,8 @@
 
 ActiveRecord::Schema.define(version: 0) do
 
-  
+  create_table"users" cascade: do |t|
+     t.string "name"
+     t.string "email"
+     t.string "password"
 end
