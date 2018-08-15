@@ -18,3 +18,4 @@ ActiveRecord::Schema.define(version: 0) do
     t.string "email"
     t.string "password"
 end
+end
